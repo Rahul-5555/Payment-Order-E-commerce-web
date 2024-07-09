@@ -1,4 +1,4 @@
-const backendDomain = import.meta.env.VITE_REACT_APP_BACKEND_URL
+const backendDomain = import.meta.env.VITE_BACKEND_URL
 
 // const backendDomain = "http://localhost:8080"
 // const backendDomain = "https://e-commerce-1-backend.onrender.com"  // when deploy project
