@@ -34,7 +34,7 @@ async function userSignInController(req, res) {
       const tokenOption = {
         httpOnly: true,
         secure: true,
-        sameSite: 'none' // to allow cookie to be sent to frontend domain(different domain)
+        sameSite: 'None' // to allow cookie to be sent to frontend domain(different domain)
       }
       res.cookie('token', token, tokenOption).status(200).json({
         message: "Login successfully",
