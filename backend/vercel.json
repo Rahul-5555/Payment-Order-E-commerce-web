@@ -3,11 +3,15 @@
   "name": "Full Stack",
   "builds": [
     {
-      "src": "./index.js",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "index.js"
+    },
     {
       "src": "/(.*)",
       "dest": "/"
