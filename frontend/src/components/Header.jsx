@@ -57,8 +57,11 @@ const Header = () => {
       <div className=' h-full container mx-auto flex items-center px-4 justify-between'>
         <div className=''>
           <Link to={"/"}>
-            {/* <{logo1} w={90} h={50} /> */}
-            <img src={logo3} className='w-17 h-16 text-2xl ' />
+          
+             <h1 className="font-extrabold text-3xl sm:text-4xl text-red-600 hover:text-red-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+    Shopper
+</h1>
+
           </Link>
         </div>
 
