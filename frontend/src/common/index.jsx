@@ -1,7 +1,8 @@
-const backendDomain = import.meta.env.VITE_BACKEND_URL
+const backendDomain = import.meta.env.VITE_BACKEND_URL;
+
 
 // const backendDomain = "http://localhost:8080"
-// const backendDomain = "https://e-commerce-1-backend.onrender.com"  // when deploy project
+// const backendDomain = "https://payment-order-e-commerce-web-4p7d.vercel.app/"  // when deploy project
 // const backendDomain = process.env.REACT_APP_BACKEND_URL
 
 
@@ -91,7 +92,9 @@ const SummaryApi = {
     url: `${backendDomain}/api/order-list`,
     method: 'get'
   }
+  
 }
+
 
 
 export default SummaryApi;
