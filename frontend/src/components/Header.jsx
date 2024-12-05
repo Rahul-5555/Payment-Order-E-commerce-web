@@ -44,23 +44,23 @@ const Header = () => {
   }
 
   const handleSearch = (e) => {
-     const {value} = e.target 
-     setSearch(value)
-     if(value){
+    const { value } = e.target
+    setSearch(value)
+    if (value) {
       navigate(`/search?q=${value}`)
-     }else{
+    } else {
       navigate("/search")
-     }
+    }
   }
   return (
     <div className='h-16 shadow-md bg-white fixed w-full z-40'>
       <div className=' h-full container mx-auto flex items-center px-4 justify-between'>
         <div className=''>
           <Link to={"/"}>
-          
-             <h1 className="font-extrabold text-3xl sm:text-4xl text-red-600 hover:text-red-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
-    Shopper
-</h1>
+
+            <h1 className="font-extrabold text-3xl sm:text-4xl text-red-600 hover:text-red-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+              Shopper
+            </h1>
 
           </Link>
         </div>

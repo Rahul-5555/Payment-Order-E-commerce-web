@@ -33,7 +33,7 @@ const Login = () => {
         method: SummaryApi.signIn.method,
         credentials: "include",
         headers: {
-          "content-type": "application/json"
+          "Content-type": "application/json"
         },
         body: JSON.stringify(data)
       });
